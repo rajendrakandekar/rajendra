@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahindra Tractor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .tractor-container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .tractor-image {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    h1 {
+      color: #b30000;
+      margin-top: 0;
+    }
+
+    .price {
+      font-size: 24px;
+      color: green;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact-btn {
+      background-color: #b30000;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .contact-btn:hover {
+      background-color: #990000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tractor-container">
+    <h1>Mahindra 575 DI XP Plus</h1>
+    <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/145123/575-di-xp-plus-left-front-three-quarter.jpeg?isig=0" alt="Mahindra Tractor" class="tractor-image"/>
+    <p class="price">₹6.90 Lakh*</p>
+    <p>The Mahindra 575 DI XP Plus is a powerful and fuel-efficient tractor built for all types of farming operations.</p>
+
+    <h3>Key Features:</h3>
+    <ul>
+      <li>Engine Power: 47 HP</li>
+      <li>Engine Capacity: 2979 cc</li>
+      <li>Transmission: 8 Forward + 2 Reverse</li>
+      <li>Lifting Capacity: 1500 kg</li>
+      <li>Brakes: Oil-immersed brakes</li>
+      <li>Warranty: 6 Years</li>
+    </ul>
+
+    <a href="#" class="contact-btn">Contact Dealer</a>
+  </div>
+
+</body>
+</html>
